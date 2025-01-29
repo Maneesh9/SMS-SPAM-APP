@@ -1,0 +1,1 @@
+streamlit run "c:\Users\amerp\OneDrive\Desktop\New folder\SMS_SPAM\email-spam-app-main\app.py"
