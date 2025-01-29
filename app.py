@@ -1,9 +1,8 @@
 import streamlit as st
 import pickle
 
-model = pickle.load(open('C:/Users/amerp/OneDrive/Desktop/New folder/SMS_SPAM/spam.pkl','rb'))
-cv = pickle.load(open('C:/Users/amerp/OneDrive/Desktop/New folder/SMS_SPAM//vectorizer.pkl','rb'))
-
+model = pickle.load(open('spam.pkl','rb'))
+cv = pickle.load(open('vectorizer.pkl','rb'))
 
 st.title("EMAIL SPAM CLASSIFICATION APPLICATION")
 st.write("This is a Machine Learning application to classify emails as spam or ham.")
